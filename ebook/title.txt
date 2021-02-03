@@ -1,0 +1,6 @@
+---
+title: Descomplicando Kubernetes
+author: adantasvieira, aeciopires, afonsoaugusto, aka-cafu, angolarti, badtuxx, ClaytonCoelho, diegoaceneves, DiegoBulhoes, dpaula, eduardohass, EduardoShibukawa, fagnercandido, felipefrocha, fmaced1, GabCostaSilva, gersontpc, giovanibalarini, IgorDePaula, jaumzors, kelvins, kevinaugusto0, klebercabral, laurobmb, lroktu, luizdores, marcelofreire1988, mengbr, NoBSaaS, ograndej, otonielsilva, P0ssuidao, philippeliso, rafaelzt, rafangello, rcjeferson, rennandealmeida, RodriguesRodrigo, ShaZam01101, sinesiobittencourt, somatorio, SpawW, stefanomartins, vmansur, vpfeifer, willdevsp,
+rights:  Creative Commons Non-Commercial Share Alike 3.0
+language: pt-BR
+...
