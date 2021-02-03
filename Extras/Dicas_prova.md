@@ -4,7 +4,7 @@
 - [ETCD](#etcd)
 - [Referências](#referências)
 
-<!-- TOC -->
+<!-- END TOC -->
 
 # Dicas CKA/CKAD
 

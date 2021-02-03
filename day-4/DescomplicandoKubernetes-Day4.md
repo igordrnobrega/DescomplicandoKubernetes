@@ -1,8 +1,8 @@
 # Descomplicando Kubernetes Day 4
 
-## Sumário
-
 <!-- TOC -->
+
+## Sumário
 
 - [Descomplicando Kubernetes Day 4](#descomplicando-kubernetes-day-4)
   - [Sumário](#sumário)
@@ -21,7 +21,7 @@
   - [Instalando o Helm 3](#instalando-o-helm-3)
   - [Comandos Básicos do Helm 3](#comandos-básicos-do-helm-3)
 
-<!-- TOC -->
+<!-- END TOC -->
 
 # Volumes
 
@@ -1015,7 +1015,7 @@ Após a criação, execute o comando ``set`` dentro do contêiner, para listar a
 Repare no final da saída do comando ``set`` a env ``frutas='kiwi'``.
 
 ```
-kubectl exec -ti busybox-configmap -- sh 
+kubectl exec -ti busybox-configmap -- sh
 / # set
 ...
 frutas='kiwi'
@@ -1109,7 +1109,7 @@ Após a criação do pod, vamos conferir o nosso configmap como arquivos.
 ```
 kubectl exec -ti busybox-configmap-file -- sh
 / # ls -lh /etc/frutas/
-total 0      
+total 0
 lrwxrwxrwx    1 root     root          13 Sep 23 04:56 banana -> ..data/banana
 lrwxrwxrwx    1 root     root          12 Sep 23 04:56 limao -> ..data/limao
 lrwxrwxrwx    1 root     root          15 Sep 23 04:56 melancia -> ..data/melancia
@@ -1676,7 +1676,7 @@ helm repo list
 
 NAME    URL
 prometheus-community    https://prometheus-community.github.io/helm-charts
-grafana                 https://grafana.github.io/helm-charts             
+grafana                 https://grafana.github.io/helm-charts
 ```
 
 ---
@@ -1715,11 +1715,11 @@ Vamos instalar o Prometheus utilizando o Helm. Mas antes vamos visualizar qual a
 
 ```
 helm search repo prometheus-community
-                                 
-NAME                                                    CHART VERSION   APP VERSION     DESCRIPTION                                       
+
+NAME                                                    CHART VERSION   APP VERSION     DESCRIPTION
 prometheus-community/prometheus                         11.16.2         2.21.0          Prometheus is a monitoring system and time seri...
-prometheus-community/prometheus-adapter                 2.7.0           v0.7.0          A Helm chart for k8s prometheus adapter           
-prometheus-community/prometheus-blackbox-exporter       4.7.0           0.17.0          Prometheus Blackbox Exporter                      
+prometheus-community/prometheus-adapter                 2.7.0           v0.7.0          A Helm chart for k8s prometheus adapter
+prometheus-community/prometheus-blackbox-exporter       4.7.0           0.17.0          Prometheus Blackbox Exporter
 ...
 ```
 
@@ -1793,7 +1793,7 @@ Liste as aplicações instaladas com o Helm no namespace ``default``:
 helm list
 
 NAME            NAMESPACE       REVISION        UPDATED                                 STATUS          CHART                   APP VERSION
-meu-prometheus  default         1               2020-10-25 12:41:05.370061181 -0300 -03 deployed        prometheus-11.16.2      2.21.0     
+meu-prometheus  default         1               2020-10-25 12:41:05.370061181 -0300 -03 deployed        prometheus-11.16.2      2.21.0
 ```
 
 Simples como voar, não é mesmo?
@@ -2105,7 +2105,7 @@ stable/grafana  5.1.4           7.0.3           The leading tool for querying an
 Agora sim, vamos instalar a aplicação ``meu-grafana``:
 
 ```
-helm install meu-grafana --version=5.8.12 grafana/grafana                                                                                                           
+helm install meu-grafana --version=5.8.12 grafana/grafana
 
 NAME: meu-grafana
 LAST DEPLOYED: Sun Oct 25 15:29:12 2020
@@ -2148,8 +2148,8 @@ Vamos listar as aplicações instaladas pelo Helm em todos os namespaces:
 helm list --all
 
 NAME            NAMESPACE       REVISION        UPDATED                                 STATUS          CHART                   APP VERSION
-meu-grafana     default         1               2020-10-25 15:29:12.373064176 -0300 -03 deployed        grafana-5.8.12          7.2.1      
-meu-prometheus  default         1               2020-10-25 14:44:57.409281829 -0300 -03 deployed        prometheus-11.16.2      2.21.0     
+meu-grafana     default         1               2020-10-25 15:29:12.373064176 -0300 -03 deployed        grafana-5.8.12          7.2.1
+meu-prometheus  default         1               2020-10-25 14:44:57.409281829 -0300 -03 deployed        prometheus-11.16.2      2.21.0
 ```
 
 Observe que a coluna **REVISION** mostra a revisão para cada aplicação instalada.
@@ -2174,7 +2174,7 @@ Vamos listar novamente as aplicações instaladas pelo Helm em todos os namespac
 helm list --all
 
 NAME            NAMESPACE       REVISION        UPDATED                                 STATUS          CHART           APP VERSION
-meu-grafana     default         1               2020-10-25 15:29:12.373064176 -0300 -03 deployed        grafana-5.8.12  7.2.1      
+meu-grafana     default         1               2020-10-25 15:29:12.373064176 -0300 -03 deployed        grafana-5.8.12  7.2.1
 ```
 
 Agora vamos fazer o rollback da remoção da aplicação ``meu-prometheus``, informando a **revision 1**:
@@ -2191,8 +2191,8 @@ Liste as aplicações instaladas pelo Helm em todos os namespaces:
 helm list --all
 
 NAME            NAMESPACE       REVISION        UPDATED                                 STATUS          CHART                   APP VERSION
-meu-grafana     default         1               2020-10-25 15:29:12.373064176 -0300 -03 deployed        grafana-5.8.12          7.2.1      
-meu-prometheus  default         2               2020-10-25 15:38:24.320598236 -0300 -03 deployed        prometheus-11.16.2      2.21.0     
+meu-grafana     default         1               2020-10-25 15:29:12.373064176 -0300 -03 deployed        grafana-5.8.12          7.2.1
+meu-prometheus  default         2               2020-10-25 15:38:24.320598236 -0300 -03 deployed        prometheus-11.16.2      2.21.0
 ```
 
 Olha o Prometheus de volta! A **revision** do Prometheus foi incrementada para **2**.
@@ -2204,9 +2204,9 @@ Vamos visualizar o histórico de mudanças da aplicação ``meu-prometheus``:
 ```
 helm history meu-prometheus
 
-REVISION        UPDATED                         STATUS          CHART                   APP VERSION     DESCRIPTION            
+REVISION        UPDATED                         STATUS          CHART                   APP VERSION     DESCRIPTION
 1               Sun Oct 25 15:37:29 2020        uninstalled     prometheus-11.16.2      2.21.0          Uninstallation complete
-2               Sun Oct 25 15:38:24 2020        deployed        prometheus-11.16.2      2.21.0          Rollback to 1          
+2               Sun Oct 25 15:38:24 2020        deployed        prometheus-11.16.2      2.21.0          Rollback to 1
 ```
 
 Se a aplicação for removida sem a opção `--keep-history`, o histórico será perdido e não será possível fazer rollback.

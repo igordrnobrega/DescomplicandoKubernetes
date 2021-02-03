@@ -1,9 +1,9 @@
-
 # Descomplicando Kubernetes Day 6
+
+<!-- TOC -->
 
 ## Sumário
 
-<!-- TOC -->
 - [Descomplicando Kubernetes Day 6](#descomplicando-kubernetes-day-6)
   - [Sumário](#sumário)
 - [Security Context](#security-context)
@@ -18,7 +18,7 @@
   - [Backup do ETCD no Kubernetes](#backup-do-etcd-no-kubernetes)
 - [Dicas para os exames](#dicas-para-os-exames)
 
-<!-- TOC -->
+<!-- END TOC -->
 
 
 # Security Context

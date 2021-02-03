@@ -1,8 +1,8 @@
 # Descomplicando Kubernetes Day 2
 
-## Sumário
-
 <!-- TOC -->
+
+## Sumário
 
 - [Descomplicando Kubernetes Day 2](#descomplicando-kubernetes-day-2)
   - [Sumário](#sumário)
@@ -19,7 +19,7 @@
 - [Kubectl taint](#kubectl-taint)
 - [Colocando o nó em modo de manutenção](#colocando-o-nó-em-modo-de-manutenção)
 
-<!-- TOC -->
+<!-- END TOC -->
 
 # Componentes do K8s
 

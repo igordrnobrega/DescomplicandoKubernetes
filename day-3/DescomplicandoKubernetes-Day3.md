@@ -1,8 +1,8 @@
 # Descomplicando Kubernetes Day 3
 
-## Sumário
-
 <!-- TOC -->
+
+## Sumário
 
 - [Descomplicando Kubernetes Day 3](#descomplicando-kubernetes-day-3)
   - [Sumário](#sumário)
@@ -14,7 +14,7 @@
 - [DaemonSet](#daemonset)
 - [Rollouts e Rollbacks](#rollouts-e-rollbacks)
 
-<!-- TOC -->
+<!-- END TOC -->
 
 # Deployments
 

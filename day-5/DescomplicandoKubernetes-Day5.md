@@ -1,15 +1,15 @@
-
 # Descomplicando Kubernetes Day 5
 
-## Sumário
-
 <!-- TOC -->
+
+## Sumário
 
 - [Descomplicando Kubernetes Day 5](#descomplicando-kubernetes-day-5)
   - [Sumário](#sumário)
 - [Ingress](#ingress)
 - [RASCUNHO](#rascunho)
-<!-- TOC -->
+
+<!-- END TOC -->
 
 # Ingress
 
@@ -82,13 +82,13 @@ spec:
 Vamos criar os deployments no cluster com os seguintes comandos:
 
 ```
-kubectl create -f app1.yaml 
+kubectl create -f app1.yaml
 
 deployment.apps/app1 created
 ```
 
 ```
-kubectl create -f app2.yaml 
+kubectl create -f app2.yaml
 
 deployment.apps/app2 created
 ```
@@ -136,13 +136,13 @@ spec:
 Vamos criar os services no cluster com os seguintes comandos:
 
 ```
-kubectl create -f svc-app1.yaml 
+kubectl create -f svc-app1.yaml
 
 service/appsvc1 created
 ```
 
 ```
-kubectl create -f svc-app2.yaml 
+kubectl create -f svc-app2.yaml
 
 service/appsvc2 created
 ```
@@ -266,7 +266,7 @@ namespace/ingress created
 Crie o deployment do backend no namespace ``ingress``:
 
 ```
-kubectl create -f default-backend.yaml -n ingress 
+kubectl create -f default-backend.yaml -n ingress
 
 deployment.apps/default-backend created
 ```
@@ -296,7 +296,7 @@ spec:
 Crie o service para o backend no namespace ``ingress``:
 
 ```
-kubectl create -f default-backend-service.yaml -n ingress 
+kubectl create -f default-backend-service.yaml -n ingress
 
 service/default-backend created
 ```
@@ -504,7 +504,7 @@ subjects:
 Aplique as permissões no namespace ``ingress`` com os seguintes comandos:
 
 ```
-kubectl create -f nginx-ingress-controller-service-account.yaml -n ingress 
+kubectl create -f nginx-ingress-controller-service-account.yaml -n ingress
 
 serviceaccount/nginx created
 ```
@@ -516,7 +516,7 @@ clusterrole.rbac.authorization.k8s.io/nginx-role created
 ```
 
 ```
-kubectl create -f nginx-ingress-controller-clusterrolebinding.yaml -n ingress 
+kubectl create -f nginx-ingress-controller-clusterrolebinding.yaml -n ingress
 
 clusterrolebinding.rbac.authorization.k8s.io/nginx-role created
 ```

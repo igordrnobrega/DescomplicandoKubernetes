@@ -4,7 +4,7 @@
 - [Habilitando o PodSecurityPolicy](#habilitando-o-podsecuritypolicy)
 - [LAB](#lab)
 
-<!-- TOC -->
+<!-- END TOC -->
 
 # Pod Security Policy
 
@@ -64,19 +64,19 @@ kubectl delete pod nginx nginx-privi
 Vamos criar nossa primeira *policy*. Para fazer isso, utilize o seguinte comando:
 
 ```
-kubectl create -f- <<EOF 
+kubectl create -f- <<EOF
 apiVersion: policy/v1beta1
 kind: PodSecurityPolicy
 metadata:
   name: primeirapolicy
 spec:
-  privileged: false  
+  privileged: false
   seLinux:
     rule: RunAsAny
   supplementalGroups:
     rule: RunAsAny
   runAsUser:
-    rule: MustRunAsNonRoot 
+    rule: MustRunAsNonRoot
   fsGroup:
     rule: RunAsAny
   volumes:

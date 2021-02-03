@@ -1,8 +1,9 @@
 # Descomplicando Kubernetes Day 1
 
+<!-- TOC -->
+
 ## Sumário
 
-<!-- TOC -->
 - [Descomplicando Kubernetes Day 1](#descomplicando-kubernetes-day-1)
   - [Sumário](#sumário)
 - [O quê preciso saber antes de começar?](#o-quê-preciso-saber-antes-de-começar)
@@ -68,7 +69,7 @@
   - [Expondo o pod](#expondo-o-pod)
   - [Limpando tudo e indo para casa](#limpando-tudo-e-indo-para-casa)
 
-<!-- TOC -->
+<!-- END TOC -->
 
 # O quê preciso saber antes de começar?
 
@@ -373,7 +374,7 @@ minikube start
 
 Para criar um cluster com multi-node basta executar:
 
-``` 
+```
 minikube start --nodes 2 -p multinode-demo
 ```
 

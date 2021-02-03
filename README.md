@@ -3,7 +3,7 @@
 - [Descomplicando o Kubernetes](#descomplicando-o-kubernetes)
 - [Índice](#índice)
 
-<!-- TOC -->
+<!-- END TOC -->
 
 # Descomplicando o Kubernetes
 
@@ -27,7 +27,7 @@ Veja os vídeos sobre Kubernetes e até outros temas legais no canal LinuxTips.
 # Índice
 
 
-<!-- TOC -->
+<!-- TOC-MAINTAIN-MAINTAIN -->
 - [Descomplicando Kubernetes Day 1](day-1/DescomplicandoKubernetes-Day1.md#descomplicando-kubernetes-day-1)
   - [Sumário](day-1/DescomplicandoKubernetes-Day1.md#sumário)
 - [O quê preciso saber antes de começar?](day-1/DescomplicandoKubernetes-Day1.md#o-quê-preciso-saber-antes-de-começar)
@@ -43,7 +43,7 @@ Veja os vídeos sobre Kubernetes e até outros temas legais no canal LinuxTips.
   - [Requisitos básicos](day-1/DescomplicandoKubernetes-Day1.md#requisitos-básicos)
   - [Instalação do Minikube no GNU/Linux](day-1/DescomplicandoKubernetes-Day1.md#instalação-do-minikube-no-gnulinux)
   - [Instalação do Minikube no MacOS](day-1/DescomplicandoKubernetes-Day1.md#instalação-do-minikube-no-macos)
-  - [kubectl: alias e autocomplete](day-1/DescomplicandoKubernetes-Day1.md#kubectl-alias-e-autocomplete)
+  - [kubectl: alias e auTOC-MAINTAINomplete](day-1/DescomplicandoKubernetes-Day1.md#kubectl-alias-e-auTOC-MAINTAINomplete)
   - [Instalação do Minikube no Microsoft Windows](day-1/DescomplicandoKubernetes-Day1.md#instalação-do-minikube-no-microsoft-windows)
   - [Iniciando, parando e excluindo o Minikube](day-1/DescomplicandoKubernetes-Day1.md#iniciando-parando-e-excluindo-o-minikube)
   - [Certo, e como eu sei que está tudo funcionando como deveria?](day-1/DescomplicandoKubernetes-Day1.md#certo-e-como-eu-sei-que-está-tudo-funcionando-como-deveria)
@@ -84,7 +84,7 @@ Veja os vídeos sobre Kubernetes e até outros temas legais no canal LinuxTips.
 - [Primeiros passos no k8s](day-1/DescomplicandoKubernetes-Day1.md#primeiros-passos-no-k8s)
   - [Exibindo informações detalhadas sobre os nós](day-1/DescomplicandoKubernetes-Day1.md#exibindo-informações-detalhadas-sobre-os-nós)
   - [Exibindo novamente token para entrar no cluster](day-1/DescomplicandoKubernetes-Day1.md#exibindo-novamente-token-para-entrar-no-cluster)
-  - [Ativando o autocomplete](day-1/DescomplicandoKubernetes-Day1.md#ativando-o-autocomplete)
+  - [Ativando o auTOC-MAINTAINomplete](day-1/DescomplicandoKubernetes-Day1.md#ativando-o-auTOC-MAINTAINomplete)
   - [Verificando os namespaces e pods](day-1/DescomplicandoKubernetes-Day1.md#verificando-os-namespaces-e-pods)
   - [Executando nosso primeiro pod no k8s](day-1/DescomplicandoKubernetes-Day1.md#executando-nosso-primeiro-pod-no-k8s)
   - [Verificar os últimos eventos do cluster](day-1/DescomplicandoKubernetes-Day1.md#verificar-os-últimos-eventos-do-cluster)
@@ -93,11 +93,11 @@ Veja os vídeos sobre Kubernetes e até outros temas legais no canal LinuxTips.
   - [Expondo o pod](day-1/DescomplicandoKubernetes-Day1.md#expondo-o-pod)
   - [Limpando tudo e indo para casa](day-1/DescomplicandoKubernetes-Day1.md#limpando-tudo-e-indo-para-casa)
 
-<!-- TOC -->
+<!-- END TOC-MAINTAIN-MAINTAIN -->
 
 
 
-<!-- TOC -->
+<!-- TOC-MAINTAIN-MAINTAIN -->
 
 - [Descomplicando Kubernetes Day 2](day-2/DescomplicandoKubernetes-Day2.md#descomplicando-kubernetes-day-2)
   - [Sumário](day-2/DescomplicandoKubernetes-Day2.md#sumário)
@@ -113,11 +113,11 @@ Veja os vídeos sobre Kubernetes e até outros temas legais no canal LinuxTips.
 - [Namespaces](day-2/DescomplicandoKubernetes-Day2.md#namespaces)
 - [Kubectl taint](day-2/DescomplicandoKubernetes-Day2.md#kubectl-taint)
 
-<!-- TOC -->
+<!-- END TOC-MAINTAIN -->
 
 
 
-<!-- TOC -->
+<!-- TOC-MAINTAIN -->
 
 - [Descomplicando Kubernetes Day 3](day-3/DescomplicandoKubernetes-Day3.md#descomplicando-kubernetes-day-3)
   - [Sumário](day-3/DescomplicandoKubernetes-Day3.md#sumário)
@@ -129,11 +129,11 @@ Veja os vídeos sobre Kubernetes e até outros temas legais no canal LinuxTips.
 - [DaemonSet](day-3/DescomplicandoKubernetes-Day3.md#daemonset)
 - [Rollouts e Rollbacks](day-3/DescomplicandoKubernetes-Day3.md#rollouts-e-rollbacks)
 
-<!-- TOC -->
+<!-- END TOC-MAINTAIN -->
 
 
 
-<!-- TOC -->
+<!-- TOC-MAINTAIN -->
 
 - [Descomplicando Kubernetes Day 4](day-4/DescomplicandoKubernetes-Day4.md#descomplicando-kubernetes-day-4)
   - [Sumário](day-4/DescomplicandoKubernetes-Day4.md#sumário)
@@ -152,21 +152,21 @@ Veja os vídeos sobre Kubernetes e até outros temas legais no canal LinuxTips.
   - [Instalando o Helm 3](day-4/DescomplicandoKubernetes-Day4.md#instalando-o-helm-3)
   - [Comandos Básicos do Helm 3](day-4/DescomplicandoKubernetes-Day4.md#comandos-básicos-do-helm-3)
 
-<!-- TOC -->
+<!-- END TOC-MAINTAIN -->
 
 
 
-<!-- TOC -->
+<!-- TOC-MAINTAIN -->
 
 - [Descomplicando Kubernetes Day 5](day-5/DescomplicandoKubernetes-Day5.md#descomplicando-kubernetes-day-5)
   - [Sumário](day-5/DescomplicandoKubernetes-Day5.md#sumário)
 - [Ingress](day-5/DescomplicandoKubernetes-Day5.md#ingress)
 
-<!-- TOC -->
+<!-- END TOC-MAINTAIN -->
 
 
 
-<!-- TOC -->
+<!-- TOC-MAINTAIN -->
 - [Descomplicando Kubernetes Day 6](day-6/DescomplicandoKubernetes-Day6.md#descomplicando-kubernetes-day-6)
   - [Sumário](day-6/DescomplicandoKubernetes-Day6.md#sumário)
 - [Security Context](day-6/DescomplicandoKubernetes-Day6.md#security-context)
@@ -181,4 +181,4 @@ Veja os vídeos sobre Kubernetes e até outros temas legais no canal LinuxTips.
   - [Backup do ETCD no Kubernetes](day-6/DescomplicandoKubernetes-Day6.md#backup-do-etcd-no-kubernetes)
 - [Dicas para os exames](day-6/DescomplicandoKubernetes-Day6.md#dicas-para-os-exames)
 
-<!-- TOC -->
+<!-- END TOC-MAINTAIN -->
