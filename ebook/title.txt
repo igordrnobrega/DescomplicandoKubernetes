@@ -1,6 +1,101 @@
 ---
-title: Descomplicando Kubernetes
-author: adantasvieira, aeciopires, afonsoaugusto, aka-cafu, angolarti, badtuxx, ClaytonCoelho, diegoaceneves, DiegoBulhoes, dpaula, eduardohass, EduardoShibukawa, fagnercandido, felipefrocha, fmaced1, GabCostaSilva, gersontpc, giovanibalarini, IgorDePaula, jaumzors, kelvins, kevinaugusto0, klebercabral, laurobmb, lroktu, luizdores, marcelofreire1988, mengbr, NoBSaaS, ograndej, otonielsilva, P0ssuidao, philippeliso, rafaelzt, rafangello, rcjeferson, rennandealmeida, RodriguesRodrigo, ShaZam01101, sinesiobittencourt, somatorio, SpawW, stefanomartins, vmansur, vpfeifer, willdevsp,
-rights:  Creative Commons Non-Commercial Share Alike 3.0
+title:
+- type: main
+  text: Descomplicando Kubernetes
+creator:
+- role: author
+  text: adantasvieira
+- role: author
+  text: aeciopires
+- role: author
+  text: afonsoaugusto
+- role: author
+  text: aka-cafu
+- role: author
+  text: angolarti
+- role: author
+  text: badtuxx
+- role: author
+  text: ClaytonCoelho
+- role: author
+  text: diegoaceneves
+- role: author
+  text: DiegoBulhoes
+- role: author
+  text: dpaula
+- role: author
+  text: eduardohass
+- role: author
+  text: EduardoShibukawa
+- role: author
+  text: fagnercandido
+- role: author
+  text: felipefrocha
+- role: author
+  text: fmaced1
+- role: author
+  text: GabCostaSilva
+- role: author
+  text: gersontpc
+- role: author
+  text: giovanibalarini
+- role: author
+  text: IgorDePaula
+- role: author
+  text: jaumzors
+- role: author
+  text: kelvins
+- role: author
+  text: kevinaugusto0
+- role: author
+  text: klebercabral
+- role: author
+  text: laurobmb
+- role: author
+  text: lroktu
+- role: author
+  text: luizdores
+- role: author
+  text: marcelofreire1988
+- role: author
+  text: mengbr
+- role: author
+  text: NoBSaaS
+- role: author
+  text: ograndej
+- role: author
+  text: otonielsilva
+- role: author
+  text: P0ssuidao
+- role: author
+  text: philippeliso
+- role: author
+  text: rafaelzt
+- role: author
+  text: rafangello
+- role: author
+  text: rcjeferson
+- role: author
+  text: rennandealmeida
+- role: author
+  text: RodriguesRodrigo
+- role: author
+  text: ShaZam01101
+- role: author
+  text: sinesiobittencourt
+- role: author
+  text: somatorio
+- role: author
+  text: SpawW
+- role: author
+  text: stefanomartins
+- role: author
+  text: vmansur
+- role: author
+  text: vpfeifer
+- role: author
+  text: willdevsp
+ibooks:
+  version: 1.0.0
 language: pt-BR
 ...
